@@ -10024,11 +10024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\P133_ASP_07-02-2023_FrontToBack-main\\P133Allup\\P133Allup\\P133Allup.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\P133Allup.csproj",
       "projectName": "P133Allup",
-      "projectPath": "C:\\Users\\asus\\Desktop\\P133_ASP_07-02-2023_FrontToBack-main\\P133Allup\\P133Allup\\P133Allup.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\P133Allup.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\P133_ASP_07-02-2023_FrontToBack-main\\P133Allup\\P133Allup\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,8 +9,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+
+builder.Services.AddScoped<ILayoutService, LayoutService>();
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+});
+
 var app = builder.Build();
-builder.Services.AddScoped<IlayoutService, LayoutService>();
+
+app.UseSession();
 app.UseStaticFiles();
 app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 

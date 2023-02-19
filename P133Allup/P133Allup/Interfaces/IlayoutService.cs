@@ -1,9 +1,11 @@
 ﻿using P133Allup.Models;
+using P133Allup.ViewModels.BasketViewModels;
 
 namespace P133Allup.Interfaces
 {
-    public interface IlayoutService
+    public interface ILayoutService
     {
-        Task<IEnumerable<Setting>> GetSettings();
+        Task<IDictionary<string, string>> GetSettings();
+        Task<IEnumerable<BasketVM>> GetBaskets();
     }
 }

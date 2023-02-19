@@ -1,4 +1,16 @@
 ﻿$(document).ready(function () {
+    $(".addToBasket").click(function (e) {
+        e.preventDefault();
+        let productId = $(this).data('id')
+
+        fetch('basket/AddBasket?id=' + productId)
+            .then(res => {return res.text() })
+        .then(data=>console.log(data))
+
+
+
+
+    })
     $(".productModal").click(function (e) {
         e.preventDefault();
         let url = $(this).attr("href");
