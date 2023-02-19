@@ -34,7 +34,6 @@ namespace P133Allup.Services
                         basketVM.ExTax = product.ExTax;
                         basketVM.Price = product.DiscountedPrice > 0 ? product.DiscountedPrice : product.Price;
                         basketVM.Title = product.Title;
-                        basketVM.Count = product.Count;
                         basketVM.Image = product.MainImage;
                     }
                 }

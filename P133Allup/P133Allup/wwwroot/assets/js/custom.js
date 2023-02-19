@@ -4,8 +4,11 @@
         let productId = $(this).data('id')
 
         fetch('basket/AddBasket?id=' + productId)
-            .then(res => {return res.text() })
-        .then(data=>console.log(data))
+            .then(res => { return res.text() })
+            .then(data => {
+                console.log(data);
+                $('.header-cart').html(data)
+            })
 
 
 
