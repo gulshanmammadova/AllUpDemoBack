@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\asus\Desktop\FrontToBack\P133Allup\P133Allup
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Basket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +28,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleDEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Shared/Components/Category/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Shared/Components/Footer/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Shared/Components/Header/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Shared/Components/Slider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Shared/Components/_BasketProductTablePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jhc2tldFByb2R1Y3RUYWJsZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/asus/Desktop/FrontToBack/P133Allup/P133Allup/Views/Shared/_BasketPartial.cshtml]

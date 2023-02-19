@@ -49,4 +49,16 @@
                 console.log(data)
             })
     })
+    $(document).on('keyup', '.productCount', function () {
+        let count = $(this).val();
+        let productId = $(this).attr('data-productId');
+
+        fetch('/Product/ChangeBasketProductCount/' + productId + '?count=' + count).then(res => {
+            return res.text();
+        }).then(data => {
+            console.log(data);
+            $(".productTable").html(data);
+        })
+
+    })
 })

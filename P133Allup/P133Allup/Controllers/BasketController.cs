@@ -26,8 +26,7 @@ namespace P133Allup.Controllers
             HttpContext.Session.SetString("qqq","fffff");
             return Content("sessino added");
         
-        }
-        public async Task<IActionResult> AddBasket(int? id) 
+        }        public async Task<IActionResult> AddBasket(int? id) 
         {
             if (id == null) {
                 return BadRequest() ;
@@ -77,5 +76,8 @@ namespace P133Allup.Controllers
         public async Task<IActionResult> GetBasket(){
             return Json(HttpContext.Request.Cookies["basket"]);
         }
+
+
+
     }
 }

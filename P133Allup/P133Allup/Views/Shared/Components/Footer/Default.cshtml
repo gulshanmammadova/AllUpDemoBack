@@ -8,6 +8,7 @@
                         <h4 class="footer-title">Contact Details</h4>
 
                         <ul>
+                            <p>@Html.Raw(Model.FirstOrDefault(s => s.Key == "Slogan").Value)</p>
                             <li><i class="fas fa-map-marker-alt"></i> @Model.FirstOrDefault(s=>s.Key=="Address")</li>
                             <li><i class="fas fa-phone"></i> <a href="tell:123-456-789">@Model.FirstOrDefault(s=>s.Key=="Phone")</a></li>
                              <li><i class="fas fa-envelope"></i><a href="mailto://email@yourwebsitename.com"></a></li>
