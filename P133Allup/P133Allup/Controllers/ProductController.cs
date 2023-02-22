@@ -18,17 +18,17 @@ namespace P133Allup.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> ProductModal(int? id)
-        {
-            if (id==null) {
-                return BadRequest();
-            }
-            Product product = await _context.Products.Include(p=>p.ProductImages).FirstOrDefaultAsync(p => p.IsDeleted == false && p.Id == id);
-            if (product==null) {
-                return NotFound();
-            }
-            return PartialView("_ModalPartial", product);
-        }
+      //  public async Task<IActionResult> ProductModal(int? id)
+      //  {
+        //    if (id==null) {
+          //      return BadRequest();
+            //}
+            //Product product = await _context.Products.Include(p=>p.ProductImages).FirstOrDefaultAsync(p => p.IsDeleted == false && p.Id == id);
+            //if (product==null) {
+              //  return NotFound();
+            //}
+            //return PartialView("_ModalPartial", product);
+//        }
 
        
     }

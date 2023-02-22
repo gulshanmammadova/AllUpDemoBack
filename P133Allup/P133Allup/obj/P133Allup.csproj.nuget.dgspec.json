@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\P133Allup.csproj": {}
+    "C:\\Users\\asus\\Desktop\\ftb\\P133Allup\\P133Allup\\P133Allup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\P133Allup.csproj": {
+    "C:\\Users\\asus\\Desktop\\ftb\\P133Allup\\P133Allup\\P133Allup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\P133Allup.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\ftb\\P133Allup\\P133Allup\\P133Allup.csproj",
         "projectName": "P133Allup",
-        "projectPath": "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\P133Allup.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\ftb\\P133Allup\\P133Allup\\P133Allup.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\FrontToBack\\P133Allup\\P133Allup\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\ftb\\P133Allup\\P133Allup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[6.0.12, )"
             }
           },
           "imports": [
